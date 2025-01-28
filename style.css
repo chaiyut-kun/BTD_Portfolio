@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:"";    
+}
+
+.jaro-font {
+  font-family: "Jaro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #6D9B85;
+}
+
+.ubuntu-medium {
+    font-family: "Ubuntu", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.lexend-giga-font {
+    font-family: "Lexend Giga", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color:darkgray;
+}
+
+.nav-header {
+    height: 80px;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+.linkedin {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-content {
+    padding: 50px;
+    /* border: 1px solid white; */
+}
+
+/* card for img showing */
+.card {
+    /* border: 1px solid white; */
+    border-radius: 10px;
+}
+
+.card img {
+    border-radius: 10px;
+    height: 25rem;
+}
+
+.text-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.text-info p {
+    font-size: 22px;
+    
+}
+
+.text-info h1 {
+    font-size: 90px;
+    letter-spacing: 5px;
+}
+
+
+/* footer */
+.about {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about hr {
+    width: 83%;
+    height: 5px;
+    position: relative;
+    top: 10px;
+    border: 1px solid #25da82;
+    background-color: #00fa81;
+}
+
+.about-text {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 100%;
+    text-align:justify;
+}
+
+.about-text p {
+    font-size: 20px;
+    width: 60%;
+    margin-left: 100px;
+}
+
